@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Session Storage</title>
+    </head>
+    <body>
+        <h2>Global Scope</h2>
+     <script>
+        console.log("Hello---> Session Storage");
+        window.sessionStorage.setItem("name", "Sitaram");
+        window.sessionStorage.setItem("Grade", "A+");
+        window.sessionStorage.setItem("Collage", "Fabtech Collage");
+        window.sessionStorage.setItem("city", "Sangola");
+        window.sessionStorage.length;
+        console.log(len);
+        const clgName = window.sessionStorage.getItem("Collage");
+        console.log(clgName);
+        window.sessionStorage.removeItem("Grade");
+        //window.sessionStorage.clear();
+     </script>    
+    </body>
+</html>

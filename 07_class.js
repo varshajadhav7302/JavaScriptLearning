@@ -95,6 +95,27 @@ traverseObject();
 
 //console.log(`=======Question 4=======`)
 
+//students
+class students{
+    name
+    rollNo
+    age
+    graducation
+    constructor(name, rollNo,age,graducation){
+        this.name =name;
+        this.rollNo = rollNo;
+        this.age = age;
+        this.graducation = graducation;
+    }
+}
+let stud = new students("Chetan",121,25,"BE Computer");
+var name = "ABC";
+console.log(stud);
+
+
+
+
+
 
 
 
